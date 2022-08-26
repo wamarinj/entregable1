@@ -1,0 +1,55 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quoteBox{
+  background-color: #fff;
+  justify-content: center;
+  width: fit-content;
+  max-width: 576px;
+  margin: 0 auto;
+  padding: 40px;
+  box-shadow: 2px 2px 8px black;
+  display: flex;
+  flex-direction: column;
+  
+}
+.quoteBox h1{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.quoteBox h1 i{
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.quoteBox h2{
+  font-size: 16px;
+  text-align: right;
+  font-weight: 300;
+  margin-top: 15px;
+  font-style: italic;
+}
+.quoteBox button{
+  font-size: 40px;
+  padding: 0;
+  align-self: end;
+  margin-top: 1rem;
+  border-radius: 50%;
+  border: none;
+  outline: 0;
+}
+.quoteBox button i{
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px grey;
+  border: none;
+}
+
+.quoteBox button:focus {
+  border: none;
+  outline: none;
+}
